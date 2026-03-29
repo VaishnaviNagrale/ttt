@@ -1,0 +1,10 @@
+name: "tictactoe"
+
+database:
+  address: ""
+
+socket:
+  server_key: "defaultkey"
+
+session:
+  encryption_key: "supersecret"
