@@ -199,20 +199,3 @@ The frontend and Lua backend communicate via these JSON message types over the N
 Scores are written to Nakama's built-in leaderboard storage (`global_leaderboard`) after every match and fetched via the `get_leaderboard` RPC.
 
 ---
-
-## 🛠️ Tech Stack
-
-| Layer | Technology |
-|---|---|
-| Frontend framework | React 18 |
-| Build tool | Vite 5 |
-| Styling | Tailwind CSS 3 |
-| State management | Zustand 5 |
-| Nakama client | @heroiclabs/nakama-js 2.9 |
-| Backend runtime | Nakama 3.21 |
-| Game logic | Lua 5.1 (Nakama runtime) |
-| Database | PostgreSQL 14 |
-| Frontend hosting | Netlify |
-| Backend hosting | Railway (or any Docker-capable VPS) |
-
----
